@@ -1,0 +1,9 @@
+let ja = {vaha: 50, vyska: 180};
+
+function o2a(o){
+    let a = [];
+    for (key in o){
+        a.push(o[key],key);
+    }
+    return a;
+}

@@ -1,0 +1,16 @@
+RT_2023, este si pozriet ulohy:
+9,10,11 (teoria)
+2,6,8 (ws, http requesty, react) 
+!!!!2 je dolezite, este si pozriet aj 6
+7 (pozriet este raz (rodic dietata)
+
+OT_2023:
+8,7,6,5,3
+9 (dokončiť, http request) mám
+10 (http request, server) nemám :(
+11 (async, await, promisy)
+12 (React)
+13 (by som mohol zvládnuť) mám
+16,17 (google)
+18(syntax) mám
+19(sort objektov) nedokoncene, ale nevadi
