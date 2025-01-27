@@ -1,0 +1,24 @@
+//Callback
+var processResult = function(result) {
+console.log(result);
+};
+var bigCompute = function() {
+    var r = 4;
+    // this is something taking very long
+    setTimeout(function(){
+        console.log('result processed')
+        processResult(r);
+    }, 5000);
+    console.log('bigCompute finished');
+    }
+bigCompute();
+
+//Callback hell
+
+doSomething(function(result)
+    doSomethingElse(result, function(newResult)
+        doThirdThing(newResult, function(finalResult)
+            console.log('Got the final result: ' + finalResult);
+        , failureCallback);
+    , failureCallback);
+, failureCallback);

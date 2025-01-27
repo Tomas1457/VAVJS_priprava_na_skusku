@@ -1,0 +1,41 @@
+Douglas Crockford
+
+JSON
+▶ JavaScript Object Notation
+▶ 2001, standardized in 2013
+▶ JSON ⊂ JavaScriptobjects
+▶ boolean, number, string, [ ], {}, null
+▶ MIME type application/json
+
+HTTP requests
+jQuery $.ajax() ($.get(), $.post())
+fetch()
+XMLHttpRequest
+
+node.js
+▶ an asynchronous event-driven JavaScript runtime
+▶ https://nodejs.org/en/download/
+▶ node file.js
+▶ modules / packages
+
+npm
+▶ npm init
+▶ package.json
+▶ npm search <string>
+▶ npm install <package name>
+	▶ npm install express
+	▶ npm install -g <package name>
+
+
+Node module
+//a. library.js
+//b. main.js
+0a. let i = 0;
+0a. const f = function() console.log(’i: ’+(++i));
+1a. module.exports = f;
+1b. const f = require(’./library.js’);
+2a. exports.f = f;
+2b. const f = require(’./library.js’).f;
+3a. export default f;
+3b. import f from ’./library.js’;
+3c. // change to .mjs or change type to module in package.

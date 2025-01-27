@@ -1,0 +1,34 @@
+JS for Web I.
+▶ window
+    ▶ global scope
+    ▶ .document
+    ▶ .onload
+    ▶ .navigator
+    ▶ .location
+    ▶ .history
+▶ document
+    ▶ .body
+    ▶ .querySelector()
+    ID: "#myID"
+    class: ".myClass"
+    sektory: "div > p:first-child"
+    ▶ .getElementById()
+    len podla IDcka nasledovne: "myID"
+    ▶ .createElement()
+
+JS for Web II.
+▶ DOM Elements
+    ▶ .appendChild()
+    ▶ .removeChild()
+    ▶ .insertBefore()
+    ▶ .parentNode
+    ▶ .child
+    ▶ .children
+    ▶ .style
+    ▶ .href
+    ▶ .src
+    ▶ .getAttribute()
+    ▶ .setAttribute()
+▶ listeners
+    ▶ .addEventListener()
+    ▶ .removeEventListener()

@@ -1,0 +1,23 @@
+async and await
+▶ async function ...
+▶ await someFunctionResult()
+▶ awain only in async function
+
+//async, await
+
+async function doTheComputeS() {
+    var q = await nBigCompute(1);
+    console.log(r);
+    var r = await nBigCompute(r+1);
+    console.log(q);
+}
+
+//”paralelism”
+
+async function doTheComputeP() {
+    var [q,r] = await Promise.all([
+        nBigCompute(1),
+        nBigCompute(2)
+    ]);
+    console.log(q,r);
+}
