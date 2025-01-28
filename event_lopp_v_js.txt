@@ -1,0 +1,11 @@
+EVENT LOOP V JS:
+
+1.The Poll Phase - vykonava I/O operacie, ktore vykonavame (napr vypis console logu)
+
+2.Timers - Po vykonani synchronneho kodu, event loop pokracuje do dalsich faz, vo faze timers prejde danu frontu a vykona dane funkcie. Preto napr. pokial mame setTimeout(()=>{console.log("hey")},0); console.log("a"); Prvy sa vykona console.log("a"), aj napriek tomu ze timeout nema nastavene oneskorenie. Okrem setTimeout sem patri aj setInterval
+
+3.Check - sa vykonava v check faze, hned po poll faze, patri sem napr funkcia setImmediate
+
+4.Close Callback - vsetky ukoncievacie callback eventy - napr. process exit, zatvorenie websocketu, tu event loop ukoncuje svoj cyklus a zacina znova
+
+
