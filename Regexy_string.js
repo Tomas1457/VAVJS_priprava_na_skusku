@@ -51,3 +51,18 @@ for (let match of matches) {
 // ["2023-01-27", "2023", "01", "27"]
 // ["2024-02-28", "2024", "02", "28"]
 */
+
+//REGEXY
+/*
+[xyz], [^xyz], ., \d, \D, \w, \W, \s, \S, \t, \r, \n, \v, \f, [\b], \0, \cX, \xhh, \uhhhh, \u{hhhh}, x|y	
+Character classes
+
+^, $, \b, \B, x(?=y), x(?!y), (?<=y)x, (?<!y)x	
+Assertions
+
+(x), (?<Name>x), (?:x), \n, \k<Name>	
+Groups and backreferences
+
+x*, x+, x?, x{n}, x{n,}, x{n,m}	
+Quantifiers
+*/
