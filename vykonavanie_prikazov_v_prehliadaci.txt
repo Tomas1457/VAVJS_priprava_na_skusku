@@ -1,0 +1,5 @@
+prehliadac si precita kod ako text
+rozparsuje ho na AST
+spravi optimalizacie
+interne si ho za behu kompiluje do bytecode ktory potom za behu kontroluje. Pocas tejto kontroly sa engine pozera na to
+ktore funkcie su ako casto volane, ako moc narocne vypoctovo a podla toho ich skusa optimalizovat este viac.

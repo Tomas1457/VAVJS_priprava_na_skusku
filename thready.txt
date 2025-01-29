@@ -1,0 +1,7 @@
+Jazyk javascript bezi defaultne na jednom jadre. Na organizaciu toho kedy ma byt spustena ktora funkcia, pouziva event
+loop. Taktiez aj napriek tomu ze je jazyk single-threaded mozeme pisat asynchronny kod.
+
+Multi-threaded funkcionalitu vieme dosiahnut pomocou builtin API ktore sa nazyva WebWorker. Toto API umoznuje beh
+paralelnych procesov v javascripte.
+
+Taby v browsri maju vlastne JS thready, tak je tiez JS v prehliadaci multi-thread.
